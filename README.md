@@ -15,3 +15,7 @@ RPD_VARIABLES_JSON_FILE sets the name of the .json file that stores the target r
 OBIEE_HOME sets the name of the OBIEE Home directory
 SCRIPT_HOME sets the name of the location of the script files
 DOMAIN_NAME set the OBIEe domain name (defaulted to 'bi')
+
+sample execution call:
+
+./OBIEEdeployment.sh tgt_server weblogic Admin123 t3://src_server6:9500 t3://tgt_server:9500
