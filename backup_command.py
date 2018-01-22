@@ -3,9 +3,9 @@ import os
 import time
 
 timestr = time.strftime("%Y%m%d")
-exportDir='/u01/downloads/exportDir'
-workDir='/u01/downloads/workDir'
-oracle_home='/u01/oracle/Middleware/Oracle_Home'
+exportDir='/app/scripts/exportDir'
+workDir='/app/scripts/workDir'
+oracle_home='/app/obiee/Middleware/Oracle_Home'
 domain_name='bi'
 print 'Connecting to '+sys.argv[3]
 
