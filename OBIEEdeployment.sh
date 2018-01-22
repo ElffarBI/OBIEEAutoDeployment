@@ -8,8 +8,8 @@ if [ $# -gt 0 ]; then
   WEBLOGIC_PORT=9502
   CONNECTION_POOL_JSON_FILE=$1"ConnectionPools.json"
   RPD_VARIABLES_JSON_FILE=$1"rpdvariables.json"
-  OBIEE_HOME="/u01/oracle/Middleware/Oracle_Home"
-  SCRIPT_HOME="/u01/downloads/exportDir"
+  OBIEE_HOME="/app/obiee/Middleware/Oracle_Home"
+  SCRIPT_HOME="/app/scripts/exportDir"
   DOMAIN_NAME="bi"
   echo $TARGET_SERVER
   echo "Export Target Connection Pools"
