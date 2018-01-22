@@ -1,6 +1,6 @@
 # OBIEEAutoDeployment
 Automated Deployment of OBIEE rpd
-The deployment scripts consist of a Shell script and a python script.
+The deployment scripts consists of a Shell script and a python script.
 
 The scripts are executed by calling the shell script, OBIEEdeployment.sh passing 5 parameters:
 1:  TARGET_SERVER (name of target server)
